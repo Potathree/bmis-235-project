@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #e5e7eb;
+}
+
+/* Header */
+
+.header {
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: Georgia, serif;
+  color: #e0e7ff;
+}
+
+/* Navigation */
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* Main container */
+
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+/* Cards */
+
+.card {
+  background: #1f2937;
+  border: 1px solid #374151;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+  color: #93c5fd;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Lists */
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+/* Image */
+
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: 2px solid #374151;
+}
+
+/* Videos */
+
+.video-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Footer */
+
+.footer {
+  background: #111827;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #374151;
+}
+
+/* Links */
+
+a {
+  color: #60a5fa;
+}
+
+a:hover {
+  color: #93c5fd;
+}
